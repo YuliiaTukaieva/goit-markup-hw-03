@@ -1,0 +1,210 @@
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434455;
+}
+h1
+h2
+h3
+h4
+h5
+h6
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button {
+    cursor: pointer;
+}
+address{
+    font-style: normal;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo-pass {
+    color: #2e2f42;
+}
+.header-logo-pass:hover,
+.header-logo-pass:focus,
+.header-logo-pass:active {
+    color: #404bbf;
+}
+.header-menu-link {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf;
+}
+.header-menu-info-inform {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.header-menu-info-inform:hover,
+.header-menu-info-inform:focus {
+    color: #404bbf;
+}
+.hero {
+   padding-bottom: 120px; 
+}
+.hero-wrap {
+    background: #2e2f42;
+    padding: 188px 316px 188px 316px;
+}
+.hero-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        margin: 0 auto;
+        max-width: 496px;
+        margin-bottom: 48px;
+}
+.hero-btn-link {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        background: #4d5ae5;
+        cursor: pointer;
+}
+.hero-btn-link:hover,
+.hero-btn-link:focus {
+   background: #404bbf;
+}
+.middle-list-link-name {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.middle-list-link-read {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.introduse{
+    background-color: #F4F4FD;
+}
+.introduse-name {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+        text-transform: capitalize;
+}
+.introduse-hero-plus {
+    background-color: #FFFFFF;
+}
+.introduse-name-hero {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.introduse-name-about {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+.picture-list-name {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.picture-list-about {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.footer-about-text {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+
+.footer-about {
+    background: #2e2f42;
+}
+
+.footer-text {
+    color: #f4f4fd;
+}
+
+.footer-text:hover,
+.footer-text:focus {
+    color: #404bbf;
+}
+
+.addr{
+    font-style: normal;
+}
