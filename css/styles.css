@@ -102,12 +102,15 @@ address{
 }
 /*-------------HERO-------------*/
 .hero {
+    width: 1440px;
+    height: 600px;
+    background: #2e2f42;
     padding-top: 0;
    padding-bottom: 120px; 
 }
 .hero-wrap {
     background: #2e2f42;
-    padding: 188px 316px 188px 316px;
+    padding-top: 188px;
 }
 .hero-title {
     font-family: "Roboto", sans-serif;
@@ -119,18 +122,25 @@ address{
         color: #fff;
         margin: 0 auto;
         max-width: 496px;
-        margin-bottom: 48px;
 }
 .hero-btn-link {
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
+        border: none;
+        border-radius: 4px;
+        width: 169px;
+        height: 56px;
         background: #4d5ae5;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         cursor: pointer;
-        margin: 48px 163px 188px 164px;
+        margin-top: 48px;
+        margin-left: 480px;
+}
+.hero-btn-btn {
+font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
 .hero-btn-link:hover,
 .hero-btn-link:focus {
