@@ -106,11 +106,13 @@ address{
     height: 600px;
     background: #2e2f42;
     padding-top: 0;
-   padding-bottom: 120px; 
+   padding-bottom: 120px;
 }
 .hero-wrap {
     background: #2e2f42;
     padding-top: 188px;
+    align-items: center;
+    text-align: center;
 }
 .hero-title {
     font-family: "Roboto", sans-serif;
@@ -132,7 +134,6 @@ address{
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         cursor: pointer;
         margin-top: 48px;
-        margin-left: 480px;
 }
 .hero-btn-btn {
 font-family: "Roboto", sans-serif;
