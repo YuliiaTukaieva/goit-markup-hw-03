@@ -35,6 +35,7 @@ address{
     padding-right: 15px;
     margin: 0 auto;
 }
+/*----------HEADER----------*/
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -47,6 +48,8 @@ address{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding-left: 0px;
+    padding-right: 76px;
 }
 
 .header-logo-pass {
@@ -56,6 +59,18 @@ address{
 .header-logo-pass:focus,
 .header-logo-pass:active {
     color: #404bbf;
+}
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
+.header-nav {
+    display: flex;
+    flex-grow: 1;
+    margin-left: auto;
+}
+.header-container {
+    display: flex;
 }
 .header-menu-link {
     font-family: "Roboto", sans-serif;
@@ -69,6 +84,10 @@ address{
 .header-menu-link:focus {
     color: #404bbf;
 }
+.header-menu-info {
+    display: flex;
+    gap: 40px;
+}
 .header-menu-info-inform {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -81,7 +100,9 @@ address{
 .header-menu-info-inform:focus {
     color: #404bbf;
 }
+/*-------------HERO-------------*/
 .hero {
+    padding-top: 0;
    padding-bottom: 120px; 
 }
 .hero-wrap {
@@ -109,10 +130,16 @@ address{
         color: #fff;
         background: #4d5ae5;
         cursor: pointer;
+        margin: 48px 163px 188px 164px;
 }
 .hero-btn-link:hover,
 .hero-btn-link:focus {
    background: #404bbf;
+}
+.middle {
+    width: 1128px;
+    height: 104px;
+    padding-bottom: 120px;
 }
 .middle-list-link-name {
     font-family: "Roboto", sans-serif;
@@ -131,7 +158,10 @@ address{
         color: #434455;
 }
 .introduse{
-    background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    background: #f4f4fd;
+    padding-bottom: 120px;
 }
 .introduse-name {
     font-family: "Roboto", sans-serif;
@@ -165,6 +195,11 @@ address{
         text-align: center;
         color: #434455;
 }
+.picture {
+    width: 1128px;
+    height: 420px; 
+    padding-bottom: 120px;
+}
 .picture-list-name {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -182,6 +217,7 @@ address{
         letter-spacing: 0.02em;
         color: #434455;
 }
+/*------------FOOTER---------------*/
 
 .footer-about-text {
     font-family: "Roboto", sans-serif;
