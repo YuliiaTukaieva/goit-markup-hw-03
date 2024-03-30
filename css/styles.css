@@ -168,7 +168,10 @@ font-family: "Roboto", sans-serif;
     margin-left: 156px;
     padding-top: 120px;
     padding-bottom: 120px;
-    
+
+}
+.visually-hidden {
+    position: absolute;
 }
 .middle-list {
     display: flex;
