@@ -25,6 +25,8 @@ p {
 }
 img {
     display: block;
+    width: 50%;
+    margin: auto;
 }
 button {
     cursor: pointer;
@@ -39,7 +41,6 @@ address{
 }
 /*----------HEADER----------*/
 .header {
-    border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -51,10 +52,7 @@ address{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-left: 0px;
-    padding-right: 76px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-right: 76px;
 }
 
 .header-logo-pass {
@@ -68,14 +66,20 @@ address{
 .header-menu {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-nav {
     display: flex;
     flex-grow: 1;
     margin-left: auto;
+    align-items: center;
 }
 .header-container {
     display: flex;
+    border-bottom: 1px solid #e7e9fc;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header-menu-link {
     font-family: "Roboto", sans-serif;
@@ -110,8 +114,8 @@ address{
     width: 1440px;
     height: 600px;
     background: #2e2f42;
-    padding-top: 0;
-   padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-wrap {
     background: #2e2f42;
