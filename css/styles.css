@@ -172,13 +172,11 @@ font-family: "Roboto", sans-serif;
 }
 .visually-hidden {
     position: absolute;
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-        width: 1px;
         height: 1px;
-        margin: -1px;
-        padding: 0;
-    visibility: hidden;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(1px, 1px, 1px, 1px);
+        white-space: nowrap;
 }
 .middle-list {
     display: flex;
