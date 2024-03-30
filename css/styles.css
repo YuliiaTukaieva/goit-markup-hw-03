@@ -323,6 +323,7 @@ font-family: "Roboto", sans-serif;
         padding-top: 16px;
         width: 264px;
         height: 72px;
+        max-width: 264px;
 }
 
 .footer-about {
@@ -331,12 +332,16 @@ font-family: "Roboto", sans-serif;
     width: 1440px;
     height: 312px;
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-logo {
     width: 264px;
     height: 112px;
     padding-top: 100px;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
