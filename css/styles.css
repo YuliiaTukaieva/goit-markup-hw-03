@@ -71,10 +71,7 @@ address{
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.header-link-list {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 .header-nav {
     display: flex;
     flex-grow: 1;
@@ -94,6 +91,8 @@ address{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
