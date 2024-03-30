@@ -31,9 +31,8 @@ address{
 }
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+    margin: auto;
+    justify-content: space-between;
 }
 /*----------HEADER----------*/
 .header {
@@ -148,9 +147,19 @@ font-family: "Roboto", sans-serif;
    background: #404bbf;
 }
 .middle {
-    width: 1128px;
+    width: 1158px;
     height: 104px;
     padding-bottom: 120px;
+    margin-left: 156px;
+}
+.middle-list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.middle-list-link {
+    height: 104px;
+    width: calc((100% - 3 * 24) / 4);
 }
 .middle-list-link-name {
     font-family: "Roboto", sans-serif;
@@ -172,7 +181,19 @@ font-family: "Roboto", sans-serif;
     width: 1440px;
     height: 732px;
     background: #f4f4fd;
+    padding-left: 156px;
+    padding-right: 156px;
     padding-bottom: 120px;
+}
+.introduse-hero {
+    display: flex;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    gap: 24px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 .introduse-name {
     font-family: "Roboto", sans-serif;
@@ -187,6 +208,7 @@ font-family: "Roboto", sans-serif;
 }
 .introduse-hero-plus {
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24) / 4);
 }
 .introduse-name-hero {
     font-family: "Roboto", sans-serif;
@@ -208,8 +230,22 @@ font-family: "Roboto", sans-serif;
 }
 .picture {
     width: 1128px;
-    height: 420px; 
+    height: 1000px; 
     padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+.picture-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.picture-list-numb {
+    width: calc((100% - 2 * 24) / 3);
+    padding-bottom: 48px;
+}
+.picture-list-number {
+    width: calc((100% - 2 * 24) / 3);
 }
 .picture-list-name {
     font-family: "Roboto", sans-serif;
@@ -237,10 +273,23 @@ font-family: "Roboto", sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        padding-top: 16px;
+        width: 264px;
+        height: 72px;
 }
 
 .footer-about {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 312px;
     background: #2e2f42;
+}
+.footer-logo {
+    width: 264px;
+    height: 112px;
+    padding-top: 100px;
+    text-transform: uppercase;
 }
 
 .footer-text {
