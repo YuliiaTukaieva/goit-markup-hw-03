@@ -287,13 +287,12 @@ font-family: "Roboto", sans-serif;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.picture-list-numb {
+
+.picture-list-number {
     width: calc((100% - 2 * 24) / 3);
     padding-bottom: 48px;
 }
-.picture-list-number {
-    width: calc((100% - 2 * 24) / 3);
-}
+
 .picture-list-name {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
