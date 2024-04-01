@@ -20,8 +20,8 @@ h4
 h5
 h6
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+    
+    margin: 0;
 }
 img {
     display: block;
@@ -37,13 +37,12 @@ address{
 .container {
     width: 1158px;
     margin: auto;
-    
+    padding: 0 15px;
     justify-content: space-between;
 }
 /*----------HEADER----------*/
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
     border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
